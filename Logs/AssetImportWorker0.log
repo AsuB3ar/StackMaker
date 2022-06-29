@@ -1,0 +1,1343 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15808 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+M:/Unity/StackMaker
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50095
+Successfully changed project path to: M:/Unity/StackMaker
+M:/Unity/StackMaker
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 35.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path M:/Unity/StackMaker/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   31.0.15.1640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002645 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 35.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.744 seconds
+Domain Reload Profiling:
+	ReloadAssembly (745ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (576ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (206ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.401 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1402ms)
+		BeginReloadAssembly (259ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1033ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (380ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (359ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1932.
+Total: 3.910000 ms (FindLiveObjects: 0.177900 ms CreateObjectMapping: 0.044400 ms MarkObjects: 3.592000 ms  DeleteObjects: 0.093900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(3446d011b466d65498a29e6370648939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(3446d011b466d65498a29e6370648939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0496adf4cae4a16d4bf3225520d5641') in 0.009846 seconds 
+  Import took 0.012572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.088669 seconds.
+  path: Assets/_MazeMakerAssets
+  artifactKey: Guid(5e10ded570d4bff46929a449d6711087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets using Guid(5e10ded570d4bff46929a449d6711087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eece7bc0369a4de9bca10e9628f1a312') in 0.010095 seconds 
+  Import took 0.013703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.989571 seconds.
+  path: Assets/_MazeMakerAssets/AnimationClip
+  artifactKey: Guid(6964dbca5beabf3479b0ade4b18a37e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/AnimationClip using Guid(6964dbca5beabf3479b0ade4b18a37e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62827dc64f33f038ee750ff39840465f') in 0.010747 seconds 
+  Import took 0.014103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.509929 seconds.
+  path: Assets/_MazeMakerAssets/AnimatorController
+  artifactKey: Guid(ce73e16b1da9cf74ebe7bd6f9cd24af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/AnimatorController using Guid(ce73e16b1da9cf74ebe7bd6f9cd24af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a64f507c634923add54673e4cde0473') in 0.011104 seconds 
+  Import took 0.013978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.882016 seconds.
+  path: Assets/_MazeMakerAssets/Material
+  artifactKey: Guid(4d420d7655d631243b176373625c5309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material using Guid(4d420d7655d631243b176373625c5309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b279756bcda248aab306fa827f34ee5') in 0.008405 seconds 
+  Import took 0.011361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045952 seconds.
+  path: Assets/_MazeMakerAssets/Material/6.mat
+  artifactKey: Guid(e7d383fe8c3be9c48b27696981132a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/6.mat using Guid(e7d383fe8c3be9c48b27696981132a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b657365889a755361a8664eaf2def3be') in 0.136640 seconds 
+  Import took 0.139611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/_MazeMakerAssets/Material/bird.mat
+  artifactKey: Guid(897bb998603de0b43a0b23a6f18bf111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/bird.mat using Guid(897bb998603de0b43a0b23a6f18bf111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a34622b42e1047ac142ff2fe220c74') in 0.111117 seconds 
+  Import took 0.113639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/_MazeMakerAssets/Material/wujiaoxingjinbi_D_dui1.mat
+  artifactKey: Guid(1c24157564792194389364dcbc6bc3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/wujiaoxingjinbi_D_dui1.mat using Guid(1c24157564792194389364dcbc6bc3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2915dc3af296050ee5dc9c08d8854e5') in 0.044516 seconds 
+  Import took 0.047097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/_MazeMakerAssets/Material/win Material.mat
+  artifactKey: Guid(0ed37345d2870a74894b21ae2023f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/win Material.mat using Guid(0ed37345d2870a74894b21ae2023f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779580653e496cf1b7f23679cbef0e8e') in 0.013931 seconds 
+  Import took 0.016847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/_MazeMakerAssets/Material/caihua51.mat
+  artifactKey: Guid(b04da6c9ec6e44542b901815cf2fb2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/caihua51.mat using Guid(b04da6c9ec6e44542b901815cf2fb2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2c21c84e30a30178df25b2d826c056') in 0.017995 seconds 
+  Import took 0.021181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/_MazeMakerAssets/Material/qiaomian Material.mat
+  artifactKey: Guid(940d06ab6d6d86a43afd287e1989eb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/qiaomian Material.mat using Guid(940d06ab6d6d86a43afd287e1989eb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873fea2d54ff1613c72f64bdd02760d1') in 0.015909 seconds 
+  Import took 0.019621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/_MazeMakerAssets/Material/lihua01.mat
+  artifactKey: Guid(ca935dc677e23084f858b30bc63e9938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/lihua01.mat using Guid(ca935dc677e23084f858b30bc63e9938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c741f39000804246585b6c7123f15d') in 0.021177 seconds 
+  Import took 0.024370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/_MazeMakerAssets/Material/Model Material.mat
+  artifactKey: Guid(565e18f4e9a084d44a420929707895b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/Model Material.mat using Guid(565e18f4e9a084d44a420929707895b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90003bd4d33c6fbaec2dae7e1f7e087c') in 0.269423 seconds 
+  Import took 0.272430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/_MazeMakerAssets/Material/button21.mat
+  artifactKey: Guid(a5731874a13f77e40be2636fb8653fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/button21.mat using Guid(a5731874a13f77e40be2636fb8653fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392712f2840c612b0bb580301812b57e') in 0.014538 seconds 
+  Import took 0.017609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/_MazeMakerAssets/Material/wujiaoxing Material.mat
+  artifactKey: Guid(90dff8eb6f4f3544482f2b20bf720643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/wujiaoxing Material.mat using Guid(90dff8eb6f4f3544482f2b20bf720643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9b7427d0853f85c35737935b2ff495') in 0.015821 seconds 
+  Import took 0.018797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/_MazeMakerAssets/Material/wujiaoxingjinbi_D_dui2.mat
+  artifactKey: Guid(4cc7aafb3e6024f4ea09e5fac99975d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/wujiaoxingjinbi_D_dui2.mat using Guid(4cc7aafb3e6024f4ea09e5fac99975d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa4210c1a40d19e5035e14d97029ea3') in 0.013907 seconds 
+  Import took 0.016848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/_MazeMakerAssets/Material/qidian.mat
+  artifactKey: Guid(6cc48290667b0064ca881d1b4fccae5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/qidian.mat using Guid(6cc48290667b0064ca881d1b4fccae5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647b711166120e4c15524b0f22f2da02') in 0.017813 seconds 
+  Import took 0.020812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/_MazeMakerAssets/Material/button31.mat
+  artifactKey: Guid(eaa509fd999d65644a96a12aeea2ae2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/button31.mat using Guid(eaa509fd999d65644a96a12aeea2ae2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca62d56929d720a7dad5c8eef74b518') in 0.014489 seconds 
+  Import took 0.017515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/_MazeMakerAssets/Material/bx01.mat
+  artifactKey: Guid(e98dd3a8a0f9fe842b4c222b8a3b52e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/bx01.mat using Guid(e98dd3a8a0f9fe842b4c222b8a3b52e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314693bd3d62d5549b733139f0ce0fc7') in 0.016487 seconds 
+  Import took 0.019356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/_MazeMakerAssets/Material/Smoke_02.mat
+  artifactKey: Guid(ac428f10b7494cd4198b81d5d0d7d6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/Smoke_02.mat using Guid(ac428f10b7494cd4198b81d5d0d7d6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c22e77c353128cc81ff16b5f948b1b') in 0.013533 seconds 
+  Import took 0.016287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/_MazeMakerAssets/Material/51.mat
+  artifactKey: Guid(a570d06420dd69f4ea4a364a7bb00155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/51.mat using Guid(a570d06420dd69f4ea4a364a7bb00155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e129216e517b09c0cbb8ad0d3a494cc9') in 0.013509 seconds 
+  Import took 0.016608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/_MazeMakerAssets/Material/guangsu1.mat
+  artifactKey: Guid(9309714c87ef9f44fb943cc75be3d1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/guangsu1.mat using Guid(9309714c87ef9f44fb943cc75be3d1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f570bf3dd769d7bfdb02b1f48fcfbbe0') in 0.014107 seconds 
+  Import took 0.017298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/_MazeMakerAssets/Material/glow.mat
+  artifactKey: Guid(c1e9e5a7d21bf8b4d949d5f9b970fdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/glow.mat using Guid(c1e9e5a7d21bf8b4d949d5f9b970fdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6087b55d7bdbde69dfa210892f2225') in 0.015441 seconds 
+  Import took 0.018613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/_MazeMakerAssets/Material/yanwu.mat
+  artifactKey: Guid(aa671fec747934442983036580cf1dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/yanwu.mat using Guid(aa671fec747934442983036580cf1dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf114f734e79912fc55940ef7a861aca') in 0.013765 seconds 
+  Import took 0.016495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/_MazeMakerAssets/Material/newbody_001.mat
+  artifactKey: Guid(f55bf57f0ee385445bd9f6909050ec51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/newbody_001.mat using Guid(f55bf57f0ee385445bd9f6909050ec51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1668837791e6accffaee063fd5de9c') in 0.016689 seconds 
+  Import took 0.020013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/_MazeMakerAssets/Material/zs02.mat
+  artifactKey: Guid(c1ecfeaee294f5b4588efb345913521a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/zs02.mat using Guid(c1ecfeaee294f5b4588efb345913521a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d103336c151d696e9ebb205a6a6848e') in 0.015167 seconds 
+  Import took 0.018418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/_MazeMakerAssets/Material/mask.mat
+  artifactKey: Guid(eef1a000da561cf488334fc93ccf84c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/mask.mat using Guid(eef1a000da561cf488334fc93ccf84c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fa237f20833735a01a7b163dab647c') in 0.057580 seconds 
+  Import took 0.060412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/_MazeMakerAssets/Material/skeleton_Material_1.mat
+  artifactKey: Guid(3d283c16ad8f0a94ebabe1e39b9fe137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/skeleton_Material_1.mat using Guid(3d283c16ad8f0a94ebabe1e39b9fe137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617c1c588a59ef47238f41d5e69f243b') in 0.012998 seconds 
+  Import took 0.015820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/_MazeMakerAssets/Material/yuandian2.mat
+  artifactKey: Guid(8c6e14267eedc1e4280bb60b17e695c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/yuandian2.mat using Guid(8c6e14267eedc1e4280bb60b17e695c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b737307d64ebdf701dfea2fa8594f8e') in 0.015853 seconds 
+  Import took 0.019002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/_MazeMakerAssets/Material/masked.mat
+  artifactKey: Guid(dd94914bc27d9dc459d976bfb58bc94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/masked.mat using Guid(dd94914bc27d9dc459d976bfb58bc94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3df387c714e4c262111f15adbe22fc') in 0.048011 seconds 
+  Import took 0.050845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/_MazeMakerAssets/Material/yuandian.mat
+  artifactKey: Guid(b006059f8977a804eb8558a33af3c408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/yuandian.mat using Guid(b006059f8977a804eb8558a33af3c408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81354f805b08e6e4bf8c4d17d3398924') in 0.014858 seconds 
+  Import took 0.018240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/_MazeMakerAssets/Material/gm1.mat
+  artifactKey: Guid(15c4c900cd6e4e140866570d3f9b8156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/gm1.mat using Guid(15c4c900cd6e4e140866570d3f9b8156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f9493d05a38ac696ffdafb1ab410c3') in 0.013605 seconds 
+  Import took 0.016578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/_MazeMakerAssets/Material/yindao_Material.mat
+  artifactKey: Guid(61afa5000fec59846a83630216996e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/yindao_Material.mat using Guid(61afa5000fec59846a83630216996e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7316660d2e1ae94732c828c79a76409d') in 0.013531 seconds 
+  Import took 0.016387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/_MazeMakerAssets/Material/7.mat
+  artifactKey: Guid(d5ef3e304890ee3468dfb4ddc9c896d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/7.mat using Guid(d5ef3e304890ee3468dfb4ddc9c896d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1f2e676cba0cf8902e5194ab5f59b1') in 0.013690 seconds 
+  Import took 0.016835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/_MazeMakerAssets/Material/lightning_down_channel1x5_yellow.mat
+  artifactKey: Guid(9a98e0682bdc06946ba6df0bc66d8f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/lightning_down_channel1x5_yellow.mat using Guid(9a98e0682bdc06946ba6df0bc66d8f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f177d1ff0d3a1c1b9677c34a9d59f6b0') in 0.014229 seconds 
+  Import took 0.017099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/_MazeMakerAssets/Material/export_uv_wireframe1.1001.mat
+  artifactKey: Guid(51b57f93b2e302145939615f0e70483a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/export_uv_wireframe1.1001.mat using Guid(51b57f93b2e302145939615f0e70483a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55186583a710ee7a176d3e7bdac7ae06') in 0.024951 seconds 
+  Import took 0.028985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/_MazeMakerAssets/Material/zs1-1.mat
+  artifactKey: Guid(78ae1d624b437fc42a62393ceb7d0d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/zs1-1.mat using Guid(78ae1d624b437fc42a62393ceb7d0d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fae86fe3e36a70716c0285232d2f45c') in 0.014565 seconds 
+  Import took 0.017903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/_MazeMakerAssets/Material/guodu1.mat
+  artifactKey: Guid(0d85cb672c4db8d4eaba22b8e6a03f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/guodu1.mat using Guid(0d85cb672c4db8d4eaba22b8e6a03f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fac38d6f024d26db8710e30f509b78f') in 0.015653 seconds 
+  Import took 0.019077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/_MazeMakerAssets/Material/caihua5.mat
+  artifactKey: Guid(50dfb117c00bf7240a5a6beb449cb876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/caihua5.mat using Guid(50dfb117c00bf7240a5a6beb449cb876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e52c46323d2823540cfdc800e3ae40') in 0.015725 seconds 
+  Import took 0.018892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/_MazeMakerAssets/Material/Main 1.mat
+  artifactKey: Guid(db84811c61043a149b5ae5d51e2bc8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/Main 1.mat using Guid(db84811c61043a149b5ae5d51e2bc8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a7e55adcf7a68ed737413e02f1fde4') in 0.174859 seconds 
+  Import took 0.179807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/_MazeMakerAssets/Material/guang.mat
+  artifactKey: Guid(2cc5e05a6d1c6b04d9edfe7e18a957c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/guang.mat using Guid(2cc5e05a6d1c6b04d9edfe7e18a957c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92039ad9359e0069113288a6c5a48cbc') in 0.013629 seconds 
+  Import took 0.016948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/_MazeMakerAssets/Material/Zhuanjiao Material.mat
+  artifactKey: Guid(72750a44db1d47d49b419c1447ff14e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/Zhuanjiao Material.mat using Guid(72750a44db1d47d49b419c1447ff14e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1043e4017432649477d9085b67fadfac') in 0.014545 seconds 
+  Import took 0.017802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000780 seconds.
+  path: Assets/_MazeMakerAssets/Material/SkeletonGraphicDefault.mat
+  artifactKey: Guid(4fc05f13a5726af4197112f5f59e3f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/SkeletonGraphicDefault.mat using Guid(4fc05f13a5726af4197112f5f59e3f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a94468d3ca5d3f630eb26e86c0d6087') in 0.014513 seconds 
+  Import took 0.017722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/_MazeMakerAssets/Material/skeleton_Material_0.mat
+  artifactKey: Guid(d9a1c174e6c194d468cfea9acff539eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/skeleton_Material_0.mat using Guid(d9a1c174e6c194d468cfea9acff539eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8984b9e6960d59e869190f1af735448') in 0.019735 seconds 
+  Import took 0.023168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/_MazeMakerAssets/Material/baoxiang(2).mat
+  artifactKey: Guid(811971132ffa12f44b0a748d357c187c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/baoxiang(2).mat using Guid(811971132ffa12f44b0a748d357c187c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71931ac4cbce15b3d3506bc489225441') in 0.015068 seconds 
+  Import took 0.018991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/_MazeMakerAssets/Material/lbx2.mat
+  artifactKey: Guid(14d3cb74a235a57479cf747ea9dc3aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/lbx2.mat using Guid(14d3cb74a235a57479cf747ea9dc3aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272a952b001f93d03c7e1f9c35d8ed57') in 0.014080 seconds 
+  Import took 0.017664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/_MazeMakerAssets/Material/button2.mat
+  artifactKey: Guid(e949a7731aa41794db0ab7dd5dffbd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/button2.mat using Guid(e949a7731aa41794db0ab7dd5dffbd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a0cc146aeb12eaccc961d2397f1959') in 0.018272 seconds 
+  Import took 0.021555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/_MazeMakerAssets/Material/gecao.mat
+  artifactKey: Guid(8d256d4575ff09e459ef408906d34237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/gecao.mat using Guid(8d256d4575ff09e459ef408906d34237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0972ec46e49c65b2b94b61d2a6b1f476') in 0.015711 seconds 
+  Import took 0.019938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/_MazeMakerAssets/Material/light07.mat
+  artifactKey: Guid(a5a5ec1103b73bd4bbc26d2a77c42e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/light07.mat using Guid(a5a5ec1103b73bd4bbc26d2a77c42e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3570779597610020e89f1ba84b838221') in 0.015999 seconds 
+  Import took 0.019432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/_MazeMakerAssets/Material/shui.mat
+  artifactKey: Guid(623f271027ad65f46994a53d79d27ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/shui.mat using Guid(623f271027ad65f46994a53d79d27ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53db00050cf15cd6cb1dadb93cf49be8') in 0.015302 seconds 
+  Import took 0.018393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/_MazeMakerAssets/Material/zs01-1.mat
+  artifactKey: Guid(4899bc13643c54043a2936966a522140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/zs01-1.mat using Guid(4899bc13643c54043a2936966a522140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4708772a1df005067e9037db4204db70') in 0.017206 seconds 
+  Import took 0.020637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/_MazeMakerAssets/Material/jinbi03.mat
+  artifactKey: Guid(2dc06f7fc87e73a44b75a0abe09c64be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/jinbi03.mat using Guid(2dc06f7fc87e73a44b75a0abe09c64be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2aeaaa58acb751b87e70958608b658') in 0.014265 seconds 
+  Import took 0.017148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/_MazeMakerAssets/Material/glow1.mat
+  artifactKey: Guid(a71b82548ce31d442beddb9b0044c287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/glow1.mat using Guid(a71b82548ce31d442beddb9b0044c287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf6e2a5394d95c6d410f96e776f0e23') in 0.017703 seconds 
+  Import took 0.020798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/_MazeMakerAssets/Material/di.mat
+  artifactKey: Guid(6a9d1c6c4f36e9f44af481b0d280f276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/di.mat using Guid(6a9d1c6c4f36e9f44af481b0d280f276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9e85cda99908775654c69db50f57ac') in 0.014832 seconds 
+  Import took 0.018098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/_MazeMakerAssets/Material/iconlg.mat
+  artifactKey: Guid(7afc14ac854b65442bee4badd4bbad1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/iconlg.mat using Guid(7afc14ac854b65442bee4badd4bbad1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb543b12c2abf447f68fc02578d6b0c4') in 0.015801 seconds 
+  Import took 0.019115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/_MazeMakerAssets/Material/newbody_001_0.mat
+  artifactKey: Guid(68f12277be5084547908aabcac6fb8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/newbody_001_0.mat using Guid(68f12277be5084547908aabcac6fb8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb444f61bce9b34904d2a636f5f9b32') in 0.017335 seconds 
+  Import took 0.020684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/_MazeMakerAssets/Material/fk02.mat
+  artifactKey: Guid(23dd23f05156b1f4fb92a136afce9df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/fk02.mat using Guid(23dd23f05156b1f4fb92a136afce9df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0095e3ff425f7984e050e1a880580920') in 0.013389 seconds 
+  Import took 0.016473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/_MazeMakerAssets/Material/kuang2.mat
+  artifactKey: Guid(700c32fa802a49f4489d1afaf58e6b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/kuang2.mat using Guid(700c32fa802a49f4489d1afaf58e6b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cf1a693043786e74c5b983fd6e1f7b') in 0.014506 seconds 
+  Import took 0.017507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/_MazeMakerAssets/Material/lihua6.mat
+  artifactKey: Guid(69d791bbb5ec00f44855ce60a4711484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/lihua6.mat using Guid(69d791bbb5ec00f44855ce60a4711484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c00fa3988bff1d1f781775c91424ff') in 0.015290 seconds 
+  Import took 0.018256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/_MazeMakerAssets/Material/shuaguang.mat
+  artifactKey: Guid(8527ab32d59b79847b8fed7df156456d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/shuaguang.mat using Guid(8527ab32d59b79847b8fed7df156456d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64ab323f7e9b8ca871169631e2cb521') in 0.014493 seconds 
+  Import took 0.017083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/_MazeMakerAssets/Material/skeleton_Material.mat
+  artifactKey: Guid(8d222e0094520cd46aef8afd8f5a39e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/skeleton_Material.mat using Guid(8d222e0094520cd46aef8afd8f5a39e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09c950d274312f8ea265b40ce4d2bb2') in 0.014803 seconds 
+  Import took 0.017571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/_MazeMakerAssets/Material/baoxiang_Material.mat
+  artifactKey: Guid(95344131df5b033429214b1f20981edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/baoxiang_Material.mat using Guid(95344131df5b033429214b1f20981edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cf98cefecf328afa09b9dcabfd2c5d') in 0.013010 seconds 
+  Import took 0.016431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/_MazeMakerAssets/Material/xiaoxiao01.mat
+  artifactKey: Guid(33fa2f5e0b241554d84fde2e727b77a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/xiaoxiao01.mat using Guid(33fa2f5e0b241554d84fde2e727b77a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b592f83edcbb4316874409e3ef69114b') in 0.015166 seconds 
+  Import took 0.019084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/_MazeMakerAssets/Material/zlzq01.mat
+  artifactKey: Guid(df28571bead45314988e359b2972a0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/zlzq01.mat using Guid(df28571bead45314988e359b2972a0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5b93607e10f8304c21784e23f7f342') in 0.014044 seconds 
+  Import took 0.016839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/_MazeMakerAssets/Material/guangdian1.mat
+  artifactKey: Guid(b569b157bf07ec140a83de7631590e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/guangdian1.mat using Guid(b569b157bf07ec140a83de7631590e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6093e1d6e2dd6cea1ab90c110eb2a556') in 0.014018 seconds 
+  Import took 0.016992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/_MazeMakerAssets/Material/qiao Material.mat
+  artifactKey: Guid(96d44a55996197e47af40360f0c3b75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/qiao Material.mat using Guid(96d44a55996197e47af40360f0c3b75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af4a68158b2e3978219193cd8992e49') in 0.012372 seconds 
+  Import took 0.015286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/_MazeMakerAssets/Material/Zhangai Material.mat
+  artifactKey: Guid(6007c1c332562174ea4ac7d4b4d129ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/Zhangai Material.mat using Guid(6007c1c332562174ea4ac7d4b4d129ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2a06e465ca9ccf415bba6408b6b72d') in 0.015000 seconds 
+  Import took 0.017746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/_MazeMakerAssets/Material/zs01.mat
+  artifactKey: Guid(8447f0b90fefc6b41aec4e3aea8d6d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/zs01.mat using Guid(8447f0b90fefc6b41aec4e3aea8d6d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68f9d52ef2b4d70bf9a9b750e49d6c2') in 0.014145 seconds 
+  Import took 0.017431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/_MazeMakerAssets/Material/dimian Material.mat
+  artifactKey: Guid(fae09c486b3c48d4ca9f50e383f9b827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/dimian Material.mat using Guid(fae09c486b3c48d4ca9f50e383f9b827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382e40356e22dcffa9116fbd1448e74c') in 0.015041 seconds 
+  Import took 0.018405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.141578 seconds.
+  path: Assets/_MazeMakerAssets/Mesh
+  artifactKey: Guid(0e1bf46391e75a64d8c47aec7e96dd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh using Guid(0e1bf46391e75a64d8c47aec7e96dd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7563cbb65cdaf3370b99e6930d1e7c23') in 0.007255 seconds 
+  Import took 0.010619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072707 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/baoxiang.asset
+  artifactKey: Guid(e4cfc5534eae38e4b99b76aa041f06ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/baoxiang.asset using Guid(e4cfc5534eae38e4b99b76aa041f06ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110a9b87db2faa2cea53082cfb03ed0c') in 0.038004 seconds 
+  Import took 0.041586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/head_001_0.asset
+  artifactKey: Guid(f42d2dcd78cb0e14e984619e216d1955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/head_001_0.asset using Guid(f42d2dcd78cb0e14e984619e216d1955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b8c2a9be9ceeb56d7e6cd8dfceb5f9') in 0.017222 seconds 
+  Import took 0.020612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/pPlane8.asset
+  artifactKey: Guid(743254121e4b5e74893f33db3fa6fc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/pPlane8.asset using Guid(743254121e4b5e74893f33db3fa6fc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d5bc1de14a9fc206d98c21f7c7617f') in 0.017273 seconds 
+  Import took 0.020623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/newbody_001.asset
+  artifactKey: Guid(70fad569e90575341907a6c5504addc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/newbody_001.asset using Guid(70fad569e90575341907a6c5504addc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37317d7516bf908860e0c7ccafeb544a') in 0.016307 seconds 
+  Import took 0.020088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/right_chibang.asset
+  artifactKey: Guid(7d04f14d535bae740a1a83424adb6f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/right_chibang.asset using Guid(7d04f14d535bae740a1a83424adb6f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46918c0b0b1b2e2e0faaf43e3c3150d6') in 0.016425 seconds 
+  Import took 0.020304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/zui_shang.asset
+  artifactKey: Guid(df9b35a9d9af32146b7130e6282952d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/zui_shang.asset using Guid(df9b35a9d9af32146b7130e6282952d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f78fd9fdd33bf0f6bc8164ffcc75032') in 0.017764 seconds 
+  Import took 0.021032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/Box541.asset
+  artifactKey: Guid(f97c3c57695ccae448a8f88d3e579f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/Box541.asset using Guid(f97c3c57695ccae448a8f88d3e579f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd38f307a919a022016e0fffb0ec253') in 0.016285 seconds 
+  Import took 0.019820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/wu01.asset
+  artifactKey: Guid(35768a079a73a7448a11a6135aa5bf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/wu01.asset using Guid(35768a079a73a7448a11a6135aa5bf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eba08944de9c562f9b6393124585351') in 0.015390 seconds 
+  Import took 0.018092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/newbody_001_0.asset
+  artifactKey: Guid(b057b340d8db96d42bfaf28a035a6bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/newbody_001_0.asset using Guid(b057b340d8db96d42bfaf28a035a6bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de626acc3aae7c64e4fb16de8449e27a') in 0.016681 seconds 
+  Import took 0.020263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/head_001.asset
+  artifactKey: Guid(88d301e0f068e544097a758131125cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/head_001.asset using Guid(88d301e0f068e544097a758131125cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee96f0973f59f0776064d7e55d7aab0') in 0.017375 seconds 
+  Import took 0.021260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/qidian.asset
+  artifactKey: Guid(e18bea47405f77546b2dec82e60fc59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/qidian.asset using Guid(e18bea47405f77546b2dec82e60fc59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c797c8133ce4f5ff98995b98bfdfe803') in 0.013457 seconds 
+  Import took 0.017104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/baoxiang_dakai.asset
+  artifactKey: Guid(93a745b96f9a5b64a83d9ec074dc886f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/baoxiang_dakai.asset using Guid(93a745b96f9a5b64a83d9ec074dc886f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cec7ee16805323bd197c851df37b6e1') in 0.021623 seconds 
+  Import took 0.024802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/lihe.asset
+  artifactKey: Guid(9a68b96ecf68773498144602aaeb2108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/lihe.asset using Guid(9a68b96ecf68773498144602aaeb2108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552602276439b642f8f0a88ed2c5c128') in 0.017531 seconds 
+  Import took 0.021343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/right_chibang001.asset
+  artifactKey: Guid(2fecb0d85acd4e846aa62c4cc8c22bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/right_chibang001.asset using Guid(2fecb0d85acd4e846aa62c4cc8c22bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2cce40e3c85dc43600c662bbddf814') in 0.015880 seconds 
+  Import took 0.019521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/di.asset
+  artifactKey: Guid(96ba56b6f3355424086c0991c426baa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/di.asset using Guid(96ba56b6f3355424086c0991c426baa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4ca1a2341891e1c45329994d492674') in 0.013547 seconds 
+  Import took 0.017090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/qiao1.asset
+  artifactKey: Guid(99642a19fc9cb674f955144884f1cc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/qiao1.asset using Guid(99642a19fc9cb674f955144884f1cc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6efeebd5556d3d193c6bf872c21926') in 0.014682 seconds 
+  Import took 0.017739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/fangkuai.asset
+  artifactKey: Guid(ba5c5b334dbdd994495924262c79af1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/fangkuai.asset using Guid(ba5c5b334dbdd994495924262c79af1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45706424ff84fb0bfe52d6f10c3674c') in 0.015000 seconds 
+  Import took 0.018385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/dimian_B.asset
+  artifactKey: Guid(976eb5dd5e0d00040a33ad7e823a02b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/dimian_B.asset using Guid(976eb5dd5e0d00040a33ad7e823a02b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553da078361cfd7cc042620fa5fb4687') in 0.015139 seconds 
+  Import took 0.018094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/body.asset
+  artifactKey: Guid(e37161de4a66d074da07bc94f4aed793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/body.asset using Guid(e37161de4a66d074da07bc94f4aed793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29da74d9033afc23aadfe6431ee4ef7') in 0.017455 seconds 
+  Import took 0.020818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/default.asset
+  artifactKey: Guid(5e82773f2a0f8a349a546e034b8b9e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/default.asset using Guid(5e82773f2a0f8a349a546e034b8b9e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417a15f754e74cee79427bd0ece51a75') in 0.016208 seconds 
+  Import took 0.019635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/lihe_youbian.asset
+  artifactKey: Guid(bf8eeb2c8bccb1942a2a5426934212e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/lihe_youbian.asset using Guid(bf8eeb2c8bccb1942a2a5426934212e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccf7d8a72d94461a87e2a3775f898df') in 0.016111 seconds 
+  Import took 0.019802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/lihe_zuobian.asset
+  artifactKey: Guid(212f2ab77e01df74faec00917ba3b325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/lihe_zuobian.asset using Guid(212f2ab77e01df74faec00917ba3b325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a263f8acee2307682b7685a226c28a') in 0.016202 seconds 
+  Import took 0.020173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/zui_xia.asset
+  artifactKey: Guid(5a35d721227174e4598bf7f726be8998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/zui_xia.asset using Guid(5a35d721227174e4598bf7f726be8998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4527f4ff188cce17f43a3e37ecb78dc3') in 0.014578 seconds 
+  Import took 0.018466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/Cylinder03.asset
+  artifactKey: Guid(15c2d410f49f35a42a9f0311d1a88631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/Cylinder03.asset using Guid(15c2d410f49f35a42a9f0311d1a88631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e256f805cc0461099539d0737d19e2') in 0.015453 seconds 
+  Import took 0.018706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/_MazeMakerAssets/Mesh/Box541_0.asset
+  artifactKey: Guid(8ac7af78ae786f64abba198d67eb9856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Mesh/Box541_0.asset using Guid(8ac7af78ae786f64abba198d67eb9856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653f2e49ec426cf9dc4dcd7cd2537ba5') in 0.014266 seconds 
+  Import took 0.017180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.972714 seconds.
+  path: Assets/_MazeMakerAssets/Resources
+  artifactKey: Guid(9cf95e10fc15b20449a7377281218549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources using Guid(9cf95e10fc15b20449a7377281218549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa6f0c9657316c0bbdea681b864c2dc') in 0.007542 seconds 
+  Import took 0.011024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.958399 seconds.
+  path: Assets/_MazeMakerAssets/Resources/getfont
+  artifactKey: Guid(863c6ad79b439a64f83690d1d3d384ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/getfont using Guid(863c6ad79b439a64f83690d1d3d384ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba447601863f4346bf6eb4eb1ce7c58a') in 0.007568 seconds 
+  Import took 0.010960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059342 seconds.
+  path: Assets/_MazeMakerAssets/Resources/getfont/+.png
+  artifactKey: Guid(2500a2b542cede949bde33460ef73001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/getfont/+.png using Guid(2500a2b542cede949bde33460ef73001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943146e6a651047931d947f4eeb4e01e') in 0.063276 seconds 
+  Import took 0.066321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/_MazeMakerAssets/Resources/getfont/。(1).png
+  artifactKey: Guid(9ab364a58df565947abae6f291a260c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/getfont/。(1).png using Guid(9ab364a58df565947abae6f291a260c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88470cfa31a26738cf7def1e1bbe03a') in 0.016057 seconds 
+  Import took 0.018784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/_MazeMakerAssets/Resources/getfont/4.png
+  artifactKey: Guid(98a7f6a8128846c45840b4ff59a8bf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/getfont/4.png using Guid(98a7f6a8128846c45840b4ff59a8bf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca2129df231efcfad2a325b96efe49e') in 0.014236 seconds 
+  Import took 0.016833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/_MazeMakerAssets/Resources/getfont/2.png
+  artifactKey: Guid(516456f2a900cbd44b950e6f9b441c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/getfont/2.png using Guid(516456f2a900cbd44b950e6f9b441c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34cfb296d55fb810a0fc4fd34eb06253') in 0.014240 seconds 
+  Import took 0.017056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/_MazeMakerAssets/Resources/getfont/3.png
+  artifactKey: Guid(8c448fce16bbd514193eb8b879c40ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/getfont/3.png using Guid(8c448fce16bbd514193eb8b879c40ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769847f9c22c3974cd044ecf99a2b3e2') in 0.014507 seconds 
+  Import took 0.017424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/_MazeMakerAssets/Resources/getfont/7.png
+  artifactKey: Guid(dd25e4483db4a4246a2dcf51f5da2395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/getfont/7.png using Guid(dd25e4483db4a4246a2dcf51f5da2395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488a97e6bb40d6285974091195f5a59b') in 0.014254 seconds 
+  Import took 0.018118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/_MazeMakerAssets/Resources/getfont/getfont.mat
+  artifactKey: Guid(e13199e97df33674a874cbfb72704a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/getfont/getfont.mat using Guid(e13199e97df33674a874cbfb72704a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43eade6d3055a838bdd850e70ac662c') in 0.013995 seconds 
+  Import took 0.017663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/_MazeMakerAssets/Resources/getfont/6.png
+  artifactKey: Guid(10fe2add151745e488f6d094a198751c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/getfont/6.png using Guid(10fe2add151745e488f6d094a198751c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a898c1003b7af7ef54026b5fa185c9c7') in 0.014516 seconds 
+  Import took 0.018703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/_MazeMakerAssets/Resources/getfont/8.png
+  artifactKey: Guid(388cde3223892f74898a4ea5db16eacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/getfont/8.png using Guid(388cde3223892f74898a4ea5db16eacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b19eb3b45113d73b535c41fb9426e4') in 0.015582 seconds 
+  Import took 0.018731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/_MazeMakerAssets/Resources/getfont/getfont.png
+  artifactKey: Guid(26ce0da0140584f40bda14aac0a0f203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/getfont/getfont.png using Guid(26ce0da0140584f40bda14aac0a0f203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c197c8ba2b1f873999d0dc00732b7d27') in 0.014615 seconds 
+  Import took 0.017487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/_MazeMakerAssets/Resources/getfont/1.png
+  artifactKey: Guid(7410e2381e54f5b4bbd35957348d17f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/getfont/1.png using Guid(7410e2381e54f5b4bbd35957348d17f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9977dfe451db132dd32760d53881a1') in 0.015572 seconds 
+  Import took 0.018920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/_MazeMakerAssets/Resources/getfont/0.png
+  artifactKey: Guid(c616d340884ee45498d499c986653482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/getfont/0.png using Guid(c616d340884ee45498d499c986653482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6043123c3fd8f169025c09cc0761505') in 0.016272 seconds 
+  Import took 0.019711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/_MazeMakerAssets/Resources/getfont/5.png
+  artifactKey: Guid(37f2e33779647884c8b0e7040dd7f2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/getfont/5.png using Guid(37f2e33779647884c8b0e7040dd7f2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465d677e9eb436584980ad27ee1727c3') in 0.016213 seconds 
+  Import took 0.019267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/_MazeMakerAssets/Resources/getfont/9.png
+  artifactKey: Guid(2e6208857e97c2640afd01bb27e59317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/getfont/9.png using Guid(2e6208857e97c2640afd01bb27e59317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92d863fb137a81396373d0baf3e45dd') in 0.014709 seconds 
+  Import took 0.017690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/_MazeMakerAssets/Resources/getfont/getfont.asset
+  artifactKey: Guid(62500ed860023c7479e77e2c30dc6c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/getfont/getfont.asset using Guid(62500ed860023c7479e77e2c30dc6c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c6140b1b406854399c031751568f8f') in 0.003300 seconds 
+  Import took 0.006345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.111385 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab
+  artifactKey: Guid(bf5d03451ce6d624e92fbba62cc951fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab using Guid(bf5d03451ce6d624e92fbba62cc951fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9eae3c122dfaffb9bf48589a951f00d') in 0.009239 seconds 
+  Import took 0.012043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058978 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/baoxiang.prefab
+  artifactKey: Guid(f0caade99d139cd4f9a23b28acf8d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/baoxiang.prefab using Guid(f0caade99d139cd4f9a23b28acf8d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2f7696e5371f924a6e22ab6e9c4957') in 0.030564 seconds 
+  Import took 0.033667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/di.prefab
+  artifactKey: Guid(50c7535320f786d4286d60ca5630d31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/di.prefab using Guid(50c7535320f786d4286d60ca5630d31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fea6c2cc4efa3f1010b12de8fab704') in 0.016101 seconds 
+  Import took 0.019906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/zhuanjiao4.prefab
+  artifactKey: Guid(58bccaa9158f7ae4089c8a8ccd023a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/zhuanjiao4.prefab using Guid(58bccaa9158f7ae4089c8a8ccd023a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab4d18c50988335af7cbdb9b452922b') in 0.059247 seconds 
+  Import took 0.062960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/zhuanjiao.prefab
+  artifactKey: Guid(ffe76fcc801f5c140b17312e673abed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/zhuanjiao.prefab using Guid(ffe76fcc801f5c140b17312e673abed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed780fbd5125f7b35d706fd2d24920c1') in 0.017826 seconds 
+  Import took 0.021777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/zuanshi.prefab
+  artifactKey: Guid(08903edef1bc6f44d80f73e76f9e0811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/zuanshi.prefab using Guid(08903edef1bc6f44d80f73e76f9e0811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8e85a9bc604ddfca689b7db965118a') in 0.032405 seconds 
+  Import took 0.036374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/yuanzhuanjiao.prefab
+  artifactKey: Guid(7f3ed0f0ef29c9a4fab570db81a83ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/yuanzhuanjiao.prefab using Guid(7f3ed0f0ef29c9a4fab570db81a83ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e218eda85c9fcac04dee442feeb44091') in 0.019217 seconds 
+  Import took 0.022985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/dimian.prefab
+  artifactKey: Guid(8aad5fca35890fd4389dabb982d52236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/dimian.prefab using Guid(8aad5fca35890fd4389dabb982d52236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba18b75a25c7f83ac47ce7a0706924b') in 0.021122 seconds 
+  Import took 0.024259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/zhuanjiao3.prefab
+  artifactKey: Guid(aa4c44423e73f5441a5e60f5adb9cb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/zhuanjiao3.prefab using Guid(aa4c44423e73f5441a5e60f5adb9cb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d071cf0866b583c51b433ba2e89a21') in 0.022055 seconds 
+  Import took 0.025465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/dimian1.prefab
+  artifactKey: Guid(d04d393ce76715f498cdd8615b8940a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/dimian1.prefab using Guid(d04d393ce76715f498cdd8615b8940a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675b45878019693bbaae2db68a1a1d20') in 0.022422 seconds 
+  Import took 0.025667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/dimian2.prefab
+  artifactKey: Guid(d755cee1094bb6a48ab2a168d33fd112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/dimian2.prefab using Guid(d755cee1094bb6a48ab2a168d33fd112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01ee89a84647719e3f46eb962efa01f') in 0.021146 seconds 
+  Import took 0.024349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/win.prefab
+  artifactKey: Guid(ee26d09d0d6a554409b01b1c40753952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/win.prefab using Guid(ee26d09d0d6a554409b01b1c40753952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f9bdeba17ae6c5d01274060ed81d8e') in 0.020285 seconds 
+  Import took 0.023640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/lumian.prefab
+  artifactKey: Guid(f206ccc114e101b4dafffd4915d4a812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/lumian.prefab using Guid(f206ccc114e101b4dafffd4915d4a812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51b76d0f531289ece9cf005b37662e4') in 0.020556 seconds 
+  Import took 0.023296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/newbody_daiji+tiao.prefab
+  artifactKey: Guid(c48c69ee1a460fe4ea5a1245dd6bfe9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/newbody_daiji+tiao.prefab using Guid(c48c69ee1a460fe4ea5a1245dd6bfe9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702131cfd4494fc148b6a0a6eaa89bef') in 0.039103 seconds 
+  Import took 0.041968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/qiao.prefab
+  artifactKey: Guid(2b1b6fa84e1873741b6c2efda43c58ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/qiao.prefab using Guid(2b1b6fa84e1873741b6c2efda43c58ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3340d7b14943c06a1e4084978673d6dd') in 0.014835 seconds 
+  Import took 0.017780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/qiao2.prefab
+  artifactKey: Guid(14205a6528da1894cbf0034337e8e854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/qiao2.prefab using Guid(14205a6528da1894cbf0034337e8e854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfec3378ab5189a2290852437ae83f37') in 0.014391 seconds 
+  Import took 0.017210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/zhuanjiao1.prefab
+  artifactKey: Guid(627d12e8b254d1f4786fa077188091fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/zhuanjiao1.prefab using Guid(627d12e8b254d1f4786fa077188091fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8b093114dad92c971986ae7c7707c6') in 0.019576 seconds 
+  Import took 0.023451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/zuanshi002.prefab
+  artifactKey: Guid(c9a44e75dfe564e468f247ea3c99ee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/zuanshi002.prefab using Guid(c9a44e75dfe564e468f247ea3c99ee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5b8415cf04c92b67b6ff201c8f8220') in 0.073587 seconds 
+  Import took 0.077054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/newbody_001.prefab
+  artifactKey: Guid(2e3aa5a52bc69414e82e1433ceee84c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/newbody_001.prefab using Guid(2e3aa5a52bc69414e82e1433ceee84c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e8c72f4193ba972c6fa0a8c8cd4313') in 0.021443 seconds 
+  Import took 0.025062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/qidian.prefab
+  artifactKey: Guid(295db39e1f72aa54580c0b7e0b02aadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/qidian.prefab using Guid(295db39e1f72aa54580c0b7e0b02aadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572cf22cc697206f423b9b62d64d7f7a') in 0.015438 seconds 
+  Import took 0.019075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/zhangai.prefab
+  artifactKey: Guid(680fafd85c16f024192891099b1460ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/zhangai.prefab using Guid(680fafd85c16f024192891099b1460ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba35879b3adc252eb9f0c76558d995f6') in 0.017335 seconds 
+  Import took 0.020913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/wujiaoxing.prefab
+  artifactKey: Guid(76a14f28daaf9e149b93ac156094c7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/wujiaoxing.prefab using Guid(76a14f28daaf9e149b93ac156094c7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a68e977bd711d03f2dd43843ddfe98') in 0.018246 seconds 
+  Import took 0.021755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/zhuanjiao2.prefab
+  artifactKey: Guid(134a0e73d41cae44cbf5ed58d0f65bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/zhuanjiao2.prefab using Guid(134a0e73d41cae44cbf5ed58d0f65bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6efcc7759c7d623b426976006cbba0') in 0.021893 seconds 
+  Import took 0.025520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/baoxiang_dakai.prefab
+  artifactKey: Guid(34c349b1bc8f37e4da2db0df8818b8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/baoxiang_dakai.prefab using Guid(34c349b1bc8f37e4da2db0df8818b8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9cc59e8c6118bdc948c902abe6a4b0') in 0.019938 seconds 
+  Import took 0.022822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/people.prefab
+  artifactKey: Guid(c84b41a4245d5c241bc7ff57b0cca3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/people.prefab using Guid(c84b41a4245d5c241bc7ff57b0cca3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7618a07e622cbb7e95306d70dd663ff') in 0.067588 seconds 
+  Import took 0.071541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/winpos.prefab
+  artifactKey: Guid(bec8fbf23e70b4f42b574dddd6681a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/winpos.prefab using Guid(bec8fbf23e70b4f42b574dddd6681a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6179ed50cd6926e0533da829e5f49dd3') in 0.044922 seconds 
+  Import took 0.049733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.715536 seconds.
+  path: Assets/_MazeMakerAssets/Texture2D/guang.png
+  artifactKey: Guid(16fb4e11df1762a4999eb6f08cc394d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Texture2D/guang.png using Guid(16fb4e11df1762a4999eb6f08cc394d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b749ac0b689dfbadf6acb7d8f9d1dcc') in 0.016958 seconds 
+  Import took 0.020967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.064736 seconds.
+  path: Assets/_MazeMakerAssets/Texture2D/guangdian1.png
+  artifactKey: Guid(58df619bc182dec48bb86ce87bb25ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Texture2D/guangdian1.png using Guid(58df619bc182dec48bb86ce87bb25ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede4ff4181c8ef067e85d19c158038be') in 0.016805 seconds 
+  Import took 0.019814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.438913 seconds.
+  path: Assets/_MazeMakerAssets/Texture2D/guangsu1.png
+  artifactKey: Guid(341d835a9a2b5e543be831a8dcfd37e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Texture2D/guangsu1.png using Guid(341d835a9a2b5e543be831a8dcfd37e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5c3e9da545fc9f6792687f12709dcd') in 0.013771 seconds 
+  Import took 0.017787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.632111 seconds.
+  path: Assets/_MazeMakerAssets/Texture2D/zlzq01.png
+  artifactKey: Guid(47586c45a62e4364b80aa20330645afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Texture2D/zlzq01.png using Guid(47586c45a62e4364b80aa20330645afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297a14636ac0fa70bb051009ab818b01') in 0.014710 seconds 
+  Import took 0.018289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.413721 seconds.
+  path: Assets/_MazeMakerAssets/Texture2D/glow.png
+  artifactKey: Guid(ed895d36ccefeff4eb83c4468eb7aace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Texture2D/glow.png using Guid(ed895d36ccefeff4eb83c4468eb7aace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae657c0f57749d18a117b9827ef26a1') in 0.017532 seconds 
+  Import took 0.020684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.067353 seconds.
+  path: Assets/_MazeMakerAssets/Material/zuanshi7.mat
+  artifactKey: Guid(2f9c253d54a170a429f9efc3a9d5ff4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/zuanshi7.mat using Guid(2f9c253d54a170a429f9efc3a9d5ff4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3680f5d8d698fa5e8cf87a4a520e5cb') in 0.014081 seconds 
+  Import took 0.016816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/_MazeMakerAssets/Material/zuanshi15_zuanshi152.mat
+  artifactKey: Guid(b1d6ee92285b6d446a8540d579dc8f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/zuanshi15_zuanshi152.mat using Guid(b1d6ee92285b6d446a8540d579dc8f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e4c112464705b396fc55af1cc6ce8d') in 0.019008 seconds 
+  Import took 0.023371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/_MazeMakerAssets/Material/zuanshi15_zuanshi15.mat
+  artifactKey: Guid(a4c1f4d5ab9f85346ac2b94dd800f59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/zuanshi15_zuanshi15.mat using Guid(a4c1f4d5ab9f85346ac2b94dd800f59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbe28f75cbc02d759aff42b7e64bd61') in 0.018373 seconds 
+  Import took 0.022491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/_MazeMakerAssets/Material/zuanshi28_zuanshi28.mat
+  artifactKey: Guid(d1764acf5a006dd4a89227ab11688935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/zuanshi28_zuanshi28.mat using Guid(d1764acf5a006dd4a89227ab11688935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316e05e85c18852ac0a7b11e0bbd5ade') in 0.018724 seconds 
+  Import took 0.023509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/_MazeMakerAssets/Material/zuanshi28_zuanshi282.mat
+  artifactKey: Guid(4bf109602e62a314c9f4b2d4358d1e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/zuanshi28_zuanshi282.mat using Guid(4bf109602e62a314c9f4b2d4358d1e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc69451a8f3c8fed6f832c156dc5114') in 0.023322 seconds 
+  Import took 0.027351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/_MazeMakerAssets/Material/zuanshi11.mat
+  artifactKey: Guid(59473197ef84e6d42a8b5b75fc9490fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Material/zuanshi11.mat using Guid(59473197ef84e6d42a8b5b75fc9490fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0c222d96c347b03f91314b305ebf59') in 0.017894 seconds 
+  Import took 0.021259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.235315 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/people.prefab
+  artifactKey: Guid(c84b41a4245d5c241bc7ff57b0cca3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/people.prefab using Guid(c84b41a4245d5c241bc7ff57b0cca3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd9db6ec27f91aba07b5da81d40f52e') in 0.058970 seconds 
+  Import took 0.062975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.190129 seconds.
+  path: Assets/_MazeMakerAssets/Resources/prefab/people.prefab
+  artifactKey: Guid(c84b41a4245d5c241bc7ff57b0cca3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MazeMakerAssets/Resources/prefab/people.prefab using Guid(c84b41a4245d5c241bc7ff57b0cca3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099d9c879dc1e9618d8c8fa6c4dbcb26') in 0.068543 seconds 
+  Import took 0.072584 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
