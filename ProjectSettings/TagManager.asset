@@ -3,15 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PlusStack
+  - Wall
+  - Stacked
+  - SubtractStack
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Stacked
   - Water
   - UI
-  - 
+  - Wall
   - 
   - 
   - 
